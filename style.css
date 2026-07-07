@@ -269,6 +269,10 @@ body {
     min-height: 45px;
 }
 
+.project-desc_bold {
+    font-weight: 700;
+}
+
 .project-link {
     color: var(--primary);
     text-decoration: none;
