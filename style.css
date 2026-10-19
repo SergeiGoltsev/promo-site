@@ -269,6 +269,10 @@ body {
     transition: 0.4s;
 }
 
+.project-img__vertical {
+    object-fit: contain;
+}
+
 .project-card:hover .project-img {
     filter: grayscale(0);
     scale: 1.05;
