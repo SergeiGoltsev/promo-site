@@ -64,14 +64,36 @@ body {
 }
 
 .tagline {
-    color: var(--text-muted);
-    font-size: 1.05rem;
     max-width: 700px;
     margin: 1.5rem auto 0;
     padding: 1.25rem;
     background: #f1f5f9;
     border-radius: var(--radius-md);
     border-left: 4px solid var(--primary);
+}
+
+.tagline p {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    margin: 0 0 10px;
+}
+
+.tagline p:first-of-type {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.tagline__button {
+    color:var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.tagline__button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #b83d3d;
 }
 
 .btn-group {
